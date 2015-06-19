@@ -20,15 +20,20 @@ public class MainActivity extends Activity implements SensorEventListener {
     //Manage sensors
     SensorManager sm;
 
+    //tekst labels
     TextView displayReading;
     TextView arrayStuff;
+
+    //knoppen
     Button stuurButton;
     Button nuButton;
 
-    //variabelen
+    //variabelen van sensorgegevens
     float a;
     float b;
     float c;
+
+    //array
     float dataKopie[] = new float[3];
 
     @Override
@@ -121,7 +126,5 @@ public class MainActivity extends Activity implements SensorEventListener {
     {
         stuurButton.setOnClickListener(this);
     }*/
-
-
 
 }

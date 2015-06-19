@@ -40,6 +40,7 @@ import android.widget.TextView;
     }
 
 
+    //Code staat in commentaar omdat het niet werkt zo
 
     /**public Gyroscope(Context context) {
         mSensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
